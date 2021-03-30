@@ -1,0 +1,7 @@
+.stack {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    border: solid 1px red;
+    color: white;
+}
