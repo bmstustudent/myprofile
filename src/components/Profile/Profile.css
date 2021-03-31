@@ -1,6 +1,6 @@
 .profile {
   width: 100%;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
@@ -11,14 +11,17 @@
   padding-top: 50px;
   max-width: 500px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .profile__container {
   display: flex;
   flex-direction: row-reverse;
-  padding-top: 50px;
+  margin-top: 50px;
   max-width: 90%;
   margin: 0 auto;
+  background-color: #2be080;
+  border-radius: 10px;
 }
 
 .profile__image {
@@ -26,9 +29,10 @@
   max-height: 250px;
   border-radius: 50%;
   margin-right: 50px;
-  border: solid 1px white;
+  border: solid 1px #2be080;
 }
 
 .profile__title {
-  color: white;
+  color: black;
+  margin-top: 40px;
 }

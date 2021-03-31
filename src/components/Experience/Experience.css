@@ -1,0 +1,9 @@
+.experience {
+  width: 100%;
+  border: solid 1px red;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 500px;
+  color: white;
+}

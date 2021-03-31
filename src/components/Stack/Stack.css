@@ -1,7 +1,41 @@
 .stack {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    border: solid 1px red;
-    color: white;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: #2be080 1px solid;
+  color: white;
+}
+
+.stack__title {
+  text-align: center;
+}
+
+.stack__container {
+}
+.stack__list {
+  list-style: none;
+}
+
+.stack__item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.stack__image {
+  margin-right: 200px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  background-color: #2be080;
+}
+
+.stack__text {
+  width: 100%;
+  max-width: 800px;
+  background-color: #2be080;
+  color: black;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
 }

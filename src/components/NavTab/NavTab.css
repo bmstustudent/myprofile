@@ -1,7 +1,7 @@
 .navtab {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 70px);
+  grid-template-columns: repeat(5, 70px);
   grid-template-rows: 36px;
   grid-column-gap: 10px;
   justify-content: center;

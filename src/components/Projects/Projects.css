@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  
+
   color: white;
 }
 
@@ -12,9 +12,9 @@
 }
 
 .projects__container {
-    margin: 20px 20px 20px 20px;
-    border-radius: 10px;
-    border: #2BE080 1px solid;
+  margin: 20px 20px 20px 20px;
+  border-radius: 10px;
+  border: #2be080 1px solid;
 }
 
 .projects__list {
@@ -37,5 +37,5 @@
 }
 
 .projects__text {
-    color: black;
+  color: black;
 }

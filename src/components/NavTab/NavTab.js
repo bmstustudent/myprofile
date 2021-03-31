@@ -13,6 +13,9 @@ function NavTab() {
       <li className='navtab__item'>
         <a href='#contacts' className='navtab__link'>Контакты</a>
       </li>
+      <li className='navtab__item'>
+        <a href='#experience' className='navtab__link'>Мой опыт</a>
+      </li>
     </ul>
   )
 }
