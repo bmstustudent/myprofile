@@ -7,35 +7,35 @@ function Projects() {
             <div className='projects__container'>
                 <ul className='projects__list'>
                     <li className='projects__item'>
-                        <img className='projects__image' src={ul1} alt='ul1' />
+                        {/* <img className='projects__image' src={ul1} alt='ul1' /> */}
                         <p className='projects__text'>подпись</p>
                     </li>
                     <li className='projects__item'>
-                        <img className='projects__image' src={ul1} alt='ul1' />
+                        {/* <img className='projects__image' src={ul1} alt='ul1' /> */}
                         <p className='projects__text'>подпись</p>
                     </li>
                     <li className='projects__item'>
-                        <img className='projects__image' src={ul1} alt='ul1' />
+                        {/* <img className='projects__image' src={ul1} alt='ul1' /> */}
                         <p className='projects__text'>подпись</p>
                     </li>
                     <li className='projects__item'>
-                        <img className='projects__image' src={ul1} alt='ul1' />
+                        {/* <img className='projects__image' src={ul1} alt='ul1' /> */}
                         <p className='projects__text'>подпись</p>
                     </li>
                     <li className='projects__item'>
-                        <img className='projects__image' src={ul1} alt='ul1' />
+                        {/* <img className='projects__image' src={ul1} alt='ul1' /> */}
                         <p className='projects__text'>подпись</p>
                     </li>
                     <li className='projects__item'>
-                        <img className='projects__image' src={ul1} alt='ul1' />
+                        {/* <img className='projects__image' src={ul1} alt='ul1' /> */}
                         <p className='projects__text'>подпись</p>
                     </li>
                     <li className='projects__item'>
-                        <img className='projects__image' src={ul1} alt='ul1' />
+                        {/* <img className='projects__image' src={ul1} alt='ul1' /> */}
                         <p className='projects__text'>подпись</p>
                     </li>
                     <li className='projects__item'>
-                        <img className='projects__image' src={ul1} alt='ul1' />
+                        {/* <img className='projects__image' src={ul1} alt='ul1' /> */}
                         <p className='projects__text'>подпись</p>
                     </li>
                 </ul>

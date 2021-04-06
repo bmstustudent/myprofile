@@ -11,18 +11,7 @@
 }
 
 .navtab__item {
-  background-color: transparent;
-  border: solid 1px #2BE080;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-}
-
-.navtab__item:hover {
-  opacity: .8;
-  transition: opacity .2s ease;
-  cursor: pointer;
+  
 }
 
 .navtab__link {
@@ -31,6 +20,15 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  color: white;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.navtab__link::after::before:hover {
+  color: #06c;
+  transition: opacity .2s ease;
+  cursor: pointer;
 }
 
 @media all and (max-width: 600px) {
