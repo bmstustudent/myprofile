@@ -11,23 +11,25 @@
 }
 
 .navtab__item {
-  
+  /* border: solid  1px white; */
+  border-radius: 10px;
+  text-align: center;
 }
 
 .navtab__link {
-  color: white;
+  text-align: center;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 13px;
+  line-height: 1.05;
+  font-weight: 200;
+  letter-spacing: -0.015em;
   color: white;
-  opacity: .8;
+  opacity: 0.8;
   cursor: pointer;
 }
 
-.navtab__link::after::before:hover {
+.navtab__link:hover {
   color: #06c;
-  transition: opacity .2s ease;
   cursor: pointer;
 }
 

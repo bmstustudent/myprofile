@@ -11,10 +11,10 @@ function NavTab() {
         <a href='#techs' className='navtab__link'>Стек</a>
       </li>
       <li className='navtab__item'>
-        <a href='#contacts' className='navtab__link'>Контакты</a>
+        <a href='#experience' className='navtab__link'>Мой опыт</a>
       </li>
       <li className='navtab__item'>
-        <a href='#experience' className='navtab__link'>Мой опыт</a>
+        <a href='#contacts' className='navtab__link'>Контакты</a>
       </li>
     </ul>
   )

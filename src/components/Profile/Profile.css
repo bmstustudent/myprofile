@@ -11,14 +11,13 @@
 }
 
 .profile__text {
-  
   padding-top: 50px;
   max-width: 500px;
   margin: 0 auto;
   padding-bottom: 50px;
-  color: #8679cb;
+  color: white;
   font-size: 40px;
-  line-height: 1.05;
+  line-height: 1.12;
   font-weight: 700;
   letter-spacing: -.015em;
   text-align: center;
@@ -35,7 +34,7 @@
 .profile__image {
   max-width: 250px;
   max-height: 250px;
-  border-radius: 50%;
+  border-radius: 30px;
   margin-right: 50px;
   margin-bottom: 50px;
 }
@@ -43,4 +42,9 @@
 .profile__title {
   color: white;
   margin-top: 40px;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 200;
+  letter-spacing: -.015em;
+  text-align: start;
 }
