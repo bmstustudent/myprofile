@@ -31,6 +31,7 @@
 .navtab__link:hover {
   color: #06c;
   cursor: pointer;
+  transition: opacity .2s ease;
 }
 
 @media all and (max-width: 600px) {
