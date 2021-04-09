@@ -12,7 +12,7 @@ function Main() {
         <Profile />
         <Projects />
         <Stack />
-        <Experience />
+        {/*<Experience />*/}
         <Contacts />
       </main>
     </>

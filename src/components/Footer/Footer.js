@@ -6,6 +6,7 @@ function Footer({ }) {
     <footer className='footer'>
       <div className='footer__container'>
         <p className='footer__text'>Мои проекты на Яндекс.Практикум</p>
+        <div className='footer__text-mode'>Автор иконок: <a className='footer__link' href="https://www.freepik.com" title="Freepik">Freepik</a> from <a className='footer__link' href="https://www.flaticon.com/ru/" title="Flaticon">www.flaticon.com</a></div>
         <div className='footer__content'>
           <p className='footer__copyright'>&copy; {new Date().getFullYear()}</p>
           <ul className='footer__list'>

@@ -1,8 +1,7 @@
 .experience {
   width: 100%;
-  max-width: 1280px;
+  max-width: 90%;
   margin: 0 auto;
-  height: 500px;
   background: linear-gradient(
 -217deg
 , #621e8f 16%, #762ca6 56%, #cf6e88 99%);

@@ -14,9 +14,7 @@ function Stack() {
     return (
         <div className='stack' id='techs'>
             <p className='stack__title'>Раздел Технологии</p>
-            <video  controls autoPlay>
-                <source src={video} type="video/mp4" />
-            </video>
+
         </div>
     )
 }

@@ -1,11 +1,11 @@
 .contacts {
   width: 100%;
-  max-width: 1280px;
+  background-image: url(../../images/icons/contacts.gif);
+  border-radius: 30px;
+  position: relative;
+  background-size: cover;
+  max-width: 90%;
   margin: 0 auto;
-  background: linear-gradient(
-150deg
-, #124d86 0%, #14204e 100%);
-border-radius: 30px;
 }
 
 .contacts__title {
@@ -14,6 +14,46 @@ border-radius: 30px;
   font-weight: 700;
   letter-spacing: -.015em;
   text-align: center;
-  padding-top: 50px;
   color: white;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.contacts__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contacts__image {
+  width: 80px;
+  height: 80px;
+}
+
+.contacts__link {
+  margin-left: 50px;
+}
+
+.contacts__link:first-child {
+  margin-left: 0;
+}
+
+@media all and (max-width: 550px) {
+  .contacts__image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contacts__container {
+    flex-direction: column;
+  }
+  .contacts__link {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .contacts__link:first-child {
+    margin: 0 auto;
+  }
 }
