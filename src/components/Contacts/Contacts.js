@@ -8,7 +8,8 @@ function Contacts() {
         <div className='contacts' id='contacts' >
             <p className='contacts__title'>Контакты</p>
                 <div className="contacts__container">
-                    <a href="mailto:bmstustudent@yandex.ru" className="contacts__link" target='_blank'>
+                    <a href="mailto:bmstustudent@yandex.ru" className="contacts__link" target='_blank' title="email"
+                       rel="noopener">
                         <img className='contacts__image' src={mail} alt='ul1' />
                     </a>
                     <a href="https://github.com/bmstustudent" className="contacts__link" target='_blank'>

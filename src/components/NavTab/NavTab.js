@@ -8,11 +8,11 @@ function NavTab() {
         <a href='#projects' className='navtab__link'>Проекты</a>
       </li>
       <li className='navtab__item'>
-        <a href='#techs' className='navtab__link'>Стек</a>
+        <a href='#tech' className='navtab__link'>Стек</a>
       </li>
-      <li className='navtab__item'>
-        <a href='#experience' className='navtab__link'>Мой опыт</a>
-      </li>
+      {/*<li className='navtab__item'>*/}
+      {/*  <a href='#experience' className='navtab__link'>Мой опыт</a>*/}
+      {/*</li>*/}
       <li className='navtab__item'>
         <a href='#contacts' className='navtab__link'>Контакты</a>
       </li>

@@ -1,101 +1,30 @@
-import git from '../../images/icons/git.svg'
-import html from '../../images/icons/html.svg'
-import css from '../../images/icons/css.svg'
-import js from '../../images/icons/javascript.svg'
-import node from '../../images/icons/nodes.svg'
-import github from '../../images/icons/github.svg'
-import coding from '../../images/icons/coding.svg'
+import movies from '../../images/icons/movies.png'
 
 function Projects() {
     return (
         <div className='projects' id='projects'>
-            <p className='projectss__title'>Стек технологий</p>
-            <div className='projects__container'>
-                <ul className='projects__list'>
-                    <li className='projects__item'>
-                        <p className='projects__title'>HTML</p>
-                        <img className='projects__image' src={html} alt='ul1' />
-                        {/* <p className='projects__text'> */}
-                            <ul className='projects__text-list'>
-                                <li className='projects__text-item'>Спектр основных тегов и атрибутов для создания секций сайта и корректной работы HTML-кода</li>
-                                <li className='projects__text-item'>Использование семантики тегов</li>
-                                <li className='projects__text-item'>Владение мета-тегами, работа с favicon, og-тегами, подключение шрифтов</li>
-                                <li className='projects__text-item'>Владение компонентным подходом к созданию элементов проекта</li>
-                                <li className='projects__text-item'>Умение создавать компоненты для переиспользования и избегать дублирования кода</li>
-                            </ul>
-                        {/* </p> */}
+            <p className='projects__title'>Мои проекты</p>
+            <div className="projects__container">
+                <p className="projects__full-title">Fullstack проекты</p>
+                <ul className="projects__list">
+                    <li className="projects__item projects__item-movies project_width_l project_height_l">
+                        <a href="https://github.com/bmstustudent/movies-explorer-frontend" className="projects__overlay"
+                           target="_blank">Movies-explorer</a>
                     </li>
-                    <li className='projects__item'>
-                        <p className='projects__title'>CSS</p>
-                        <img className='projects__image' src={css} alt='ul1' />
-                        <ul className='projects__text-list'>
-                                <li className='projects__text-item'>Спектр основных тегов и атрибутов для создания секций сайта и корректной работы HTML-кода</li>
-                                <li className='projects__text-item'>Использование семантики тегов</li>
-                                <li className='projects__text-item'>Владение мета-тегами, работа с favicon, og-тегами, подключение шрифтов</li>
-                                <li className='projects__text-item'>Владение компонентным подходом к созданию элементов проекта</li>
-                                <li className='projects__text-item'>Умение создавать компоненты для переиспользования и избегать дублирования кода</li>
-                            </ul>
+                    <li className="projects__item projects__item-mesto project_width_l project_height_l">
+                        <a href="https://github.com/bmstustudent/react-mesto-api-full" className="projects__overlay"
+                           target="_blank">Mesto</a>
                     </li>
-                    <li className='projects__item'>
-                        <p className='projects__title'>JAVASCRIPT</p>
-                        <img className='projects__image' src={js} alt='ul1' />
-                        <ul className='projects__text-list'>
-                                <li className='projects__text-item'>Спектр основных тегов и атрибутов для создания секций сайта и корректной работы HTML-кода</li>
-                                <li className='projects__text-item'>Использование семантики тегов</li>
-                                <li className='projects__text-item'>Владение мета-тегами, работа с favicon, og-тегами, подключение шрифтов</li>
-                                <li className='projects__text-item'>Владение компонентным подходом к созданию элементов проекта</li>
-                                <li className='projects__text-item'>Умение создавать компоненты для переиспользования и избегать дублирования кода</li>
-                            </ul>
+                    <p className="projects__full-title">Адаптивная вёртка</p>
+                    <li className="projects__item projects__item-rus project_width_l project_height_l">
+                        <a href="https://github.com/bmstustudent/react-mesto-api-full" className="projects__overlay"
+                           target="_blank">Петешествия по России</a>
                     </li>
-                    <li className='projects__item'>
-                        <p className='projects__title'>REACT</p>
-                        <img className='projects__image' src={node} alt='ul1' />
-                        <ul className='projects__text-list'>
-                                <li className='projects__text-item'>Спектр основных тегов и атрибутов для создания секций сайта и корректной работы HTML-кода</li>
-                                <li className='projects__text-item'>Использование семантики тегов</li>
-                                <li className='projects__text-item'>Владение мета-тегами, работа с favicon, og-тегами, подключение шрифтов</li>
-                                <li className='projects__text-item'>Владение компонентным подходом к созданию элементов проекта</li>
-                                <li className='projects__text-item'>Умение создавать компоненты для переиспользования и избегать дублирования кода</li>
-                            </ul>
+                    <p className="projects__full-title">Одностраницный сайт</p>
+                    <li className="projects__item projects__item-how project_width_l project_height_l">
+                        <a href="https://github.com/bmstustudent/react-mesto-api-full" className="projects__overlay"
+                           target="_blank">Научиться учиться</a>
                     </li>
-                    <li className='projects__item'>
-                        <p className='projects__title'>GIT</p>
-                        <img className='projects__image' src={git} alt='ul1' />
-                        <ul className='projects__text-list'>
-                                <li className='projects__text-item'>Спектр основных тегов и атрибутов для создания секций сайта и корректной работы HTML-кода</li>
-                                <li className='projects__text-item'>Использование семантики тегов</li>
-                                <li className='projects__text-item'>Владение мета-тегами, работа с favicon, og-тегами, подключение шрифтов</li>
-                                <li className='projects__text-item'>Владение компонентным подходом к созданию элементов проекта</li>
-                                <li className='projects__text-item'>Умение создавать компоненты для переиспользования и избегать дублирования кода</li>
-                            </ul>
-                    </li>
-                    <li className='projects__item'>
-                        <p className='projects__title'>GITHUB</p>
-                        <img className='projects__image' src={github} alt='ul1' />
-                        <ul className='projects__text-list'>
-                                <li className='projects__text-item'>Спектр основных тегов и атрибутов для создания секций сайта и корректной работы HTML-кода</li>
-                                <li className='projects__text-item'>Использование семантики тегов</li>
-                                <li className='projects__text-item'>Владение мета-тегами, работа с favicon, og-тегами, подключение шрифтов</li>
-                                <li className='projects__text-item'>Владение компонентным подходом к созданию элементов проекта</li>
-                                <li className='projects__text-item'>Умение создавать компоненты для переиспользования и избегать дублирования кода</li>
-                            </ul>
-                    </li>
-                    <li className='projects__item'>
-                        <p className='projects__title'>CODING</p>
-                        <img className='projects__image' src={coding} alt='ul1' />
-                        <ul className='projects__text-list'>
-                                <li className='projects__text-item'>Спектр основных тегов и атрибутов для создания секций сайта и корректной работы HTML-кода</li>
-                                <li className='projects__text-item'>Использование семантики тегов</li>
-                                <li className='projects__text-item'>Владение мета-тегами, работа с favicon, og-тегами, подключение шрифтов</li>
-                                <li className='projects__text-item'>Владение компонентным подходом к созданию элементов проекта</li>
-                                <li className='projects__text-item'>Умение создавать компоненты для переиспользования и избегать дублирования кода</li>
-                            </ul>
-                    </li>
-                    {/* <li className='projects__item'>
-                        <p className='projects__title'>HTML</p>
-                        <img className='projects__image' src={html} alt='ul1' />
-                        <p className='projects__text'>HTML</p>
-                    </li> */}
                 </ul>
             </div>
         </div>

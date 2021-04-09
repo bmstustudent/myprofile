@@ -1,9 +1,6 @@
 .contacts {
   width: 100%;
-  background-image: url(../../images/icons/contacts.gif);
-  border-radius: 30px;
-  position: relative;
-  background-size: cover;
+
   max-width: 90%;
   margin: 0 auto;
 }
@@ -20,6 +17,10 @@
 }
 
 .contacts__container {
+  background-image: url(../../images/icons/cyber.gif);
+  border-radius: 30px;
+  position: relative;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -28,8 +29,8 @@
 }
 
 .contacts__image {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 .contacts__link {
