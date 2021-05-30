@@ -1,47 +1,43 @@
 .navtab {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 70px);
+  grid-template-columns: repeat(3, 70px);
   grid-template-rows: 36px;
   grid-column-gap: 10px;
-  justify-content: center;
+  justify-content: end;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .navtab__item {
-  /* border: solid  1px white; */
   border-radius: 10px;
   text-align: center;
-}
-
-.navtab__link {
-  text-align: center;
+  margin-top: 15px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.05;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: -0.015em;
   color: white;
   opacity: 0.8;
   cursor: pointer;
 }
 
-.navtab__link:hover {
-  color: #06c;
-  cursor: pointer;
-  transition: opacity .2s ease;
+.navtab__item:hover {
+  color: #7a9ad2;
+  transition: opacity 0.2s ease;
+  transition: 0.5s;
 }
 
 @media all and (max-width: 600px) {
   .navtab {
-    grid-template-columns: repeat(4, 55px);
+    grid-template-columns: repeat(3, 55px);
     grid-template-rows: 26px;
     grid-column-gap: 6px;
   }
 
-  .navtab__link {
+  .navtab__item {
     font-size: 10px;
   }
 }

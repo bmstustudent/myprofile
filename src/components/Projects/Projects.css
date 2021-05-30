@@ -1,150 +1,26 @@
-.projects {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+.project {
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 100px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.project__list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
 }
 
-.projects__title {
-    color: white;
-    padding-top: 50px;
-    font-size: 40px;
-    line-height: 1.05;
-    font-weight: 700;
-    letter-spacing: -0.015em;
-    text-align: center;
+@media screen and (max-width: 320px) {
+  .project__list {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
 }
 
-.projects__full-title {
-    color: white;
-    padding-top: 50px;
-    font-size: 20px;
-    line-height: 1.05;
-    font-weight: 700;
-    letter-spacing: -0.015em;
-    text-align: center;
-    opacity: .5;
-}
-
-.projects__container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.projects__list {
-    list-style: none;
-    max-width: 1280px;
-    width: 90%;
-    margin: 0 auto;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 100%);
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-}
-
-.projects__item {
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px;
-    background-repeat: no-repeat;
-}
-
-.projects__item-movies {
-    background-image: url(../../images/icons/movies.png);
-}
-
-.projects__item-movies:hover {
-    background-image: url(../../images/icons/movies.gif);
-}
-
-.projects__item-mesto {
-    background-image: url(../../images/icons/mesto.png);
-}
-
-.projects__item-mesto:hover {
-    background-image: url(../../images/icons/mesto-api.gif);
-}
-
-.projects__item-rus {
-    background-image: url(../../images/icons/rus.png);
-}
-
-.projects__item-rus:hover {
-    background-image: url(../../images/icons/russian-travel.gif);
-}
-
-.projects__item-how {
-    background-image: url(../../images/icons/how.png);
-}
-
-.projects__item-how:hover {
-    background-image: url(../../images/icons/how-to.gif);
-}
-
-.projects__overlay {
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #10191e;
-    text-transform: lowercase;
-    font-size: 30px;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 20px;
-    transition: opacity 300ms ease-out;
-    border-radius: 10px;
-}
-
-.projects__overlay:hover {
-    display: none;
-}
-
-@media all and (max-width: 768px) {
-    .projects__overlay:hover {
-        font-size: 22px;
-    }
-}
-
-.project_width_l {
-    width: 100%;
-    margin-right: 16px;
-}
-.project_width_l:last-of-type {
-    margin-right: 0;
-}
-
-@media all and (max-width: 760px) {
-    .project_width_l {
-        width: 100%;
-        margin: 0 0 16px;
-    }
-}
-
-.project_height_l {
-    height: 700px;
-}
-
-@media all and (max-width: 960px) {
-    .project_height_l {
-        height: 360px;
-    }
-}
-@media all and (max-width: 880px) {
-    .project_height_l {
-        height: 500px;
-    }
-}
-@media all and (max-width: 760px) {
-    .project_height_l {
-        height: 400px;
-    }
-}
-@media all and (max-width: 420px) {
-    .project_height_l {
-        height: 340px;
-    }
+.project__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
 }

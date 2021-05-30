@@ -1,21 +1,17 @@
+import { NavLink } from "react-router-dom";
+
 function NavTab() {
   return (
     <ul className='navtab'>
-      <li className='navtab__item'>
-        <a href='#about-me' className='navtab__link'>Обо мне</a>
-      </li>
-      <li className='navtab__item'>
-        <a href='#projects' className='navtab__link'>Проекты</a>
-      </li>
-      <li className='navtab__item'>
-        <a href='#tech' className='navtab__link'>Стек</a>
-      </li>
-      {/*<li className='navtab__item'>*/}
-      {/*  <a href='#experience' className='navtab__link'>Мой опыт</a>*/}
-      {/*</li>*/}
-      <li className='navtab__item'>
-        <a href='#contacts' className='navtab__link'>Контакты</a>
-      </li>
+      <NavLink exact to='/' className='navtab__item'>
+        Главная
+      </NavLink>
+      <NavLink exact to='/profile' className='navtab__item'>
+        Обо мне
+      </NavLink>
+      <NavLink exact to='/tech' className='navtab__item'>
+        Технологии
+      </NavLink>
     </ul>
   )
 }

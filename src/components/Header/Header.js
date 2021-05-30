@@ -1,9 +1,9 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import logo from '../../images/icons/user.svg';
+import logo from '../../images/icons/pages.svg';
 import NavTab from '../NavTab/NavTab';
 
-function Header({loggedIn, windowWidth}) {
+function Header({ loggedIn, windowWidth }) {
   const history = useHistory();
 
   function handleLogoClick() {
