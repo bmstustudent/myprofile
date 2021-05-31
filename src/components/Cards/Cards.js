@@ -19,7 +19,6 @@ function Card({ item }) {
             <div className="card__content">
                 <h1 className="card__title">{title}</h1>
                 <p className="card__description">{description}</p>
-
                 <div>
                     <a
                         href={githubUrl}
@@ -32,7 +31,7 @@ function Card({ item }) {
                             alt="логотип github"
                             className="card__github-logo"
                         />
-                        <span className="card__github-link">перейти на GitHub</span>
+                        <span className="card__github-link">перейти на GitHub проекта</span>
                     </a>
                 </div>
             </div>

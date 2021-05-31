@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  z-index: 1;
 }
 
 .navtab__item {
@@ -25,9 +26,9 @@
 }
 
 .navtab__item:hover {
-  color: #7a9ad2;
-  transition: opacity 0.2s ease;
   transition: 0.5s;
+  color: #06c;
+  transition: opacity 0.2s ease;
 }
 
 @media all and (max-width: 600px) {

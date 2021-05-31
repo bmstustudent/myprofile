@@ -1,5 +1,5 @@
 import mail from '../../images/icons/mail.svg';
-import github_me from '../../images/icons/github_me.svg';
+import github_me from '../../images/icons/github.svg';
 import telegram from '../../images/icons/telegram.svg';
 
 function Contacts() {

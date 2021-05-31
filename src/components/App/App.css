@@ -1,5 +1,4 @@
 .app {
-  height: auto;
   font-family: "Inter", "Roboto", "Roboto Slab", "Source Sans Pro", Arial,
     Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +9,6 @@
   text-rendering: optimizeLegibility;
   background-color: #1d1d1f;
   width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
 }

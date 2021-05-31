@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import logo from '../../images/icons/pages.svg';
+import logo from '../../images/logo.svg';
 import NavTab from '../NavTab/NavTab';
 
 function Header({ loggedIn, windowWidth }) {
