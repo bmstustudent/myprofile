@@ -26,6 +26,12 @@
   object-position: 0 0;
   object-fit: fill;
   border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.contacts__container:hover {
+  border: solid 1px #fff;
+  box-shadow: 0 5px 15px 0 rgb(255, 255, 255);
 }
 
 .contacts__image {
@@ -36,6 +42,10 @@
 
 .contacts__link {
   margin-left: 50px;
+}
+
+.contacts__link:hover {
+  transform: translateY(-10px);
 }
 
 .contacts__link:first-child {

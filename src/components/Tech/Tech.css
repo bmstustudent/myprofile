@@ -64,10 +64,6 @@
 
 .tech__item {
   background: linear-gradient(150deg, #124d86 0%, #14204e 100%);
-  /* background-color: #7a9ad2; */
-  /* background: linear-gradient(rgba(0, 0, 0, 0), #151b25, #151516),
-    linear-gradient(90deg, #172538, #18263a 50%); */
-  /* background: linear-gradient(to bottom, #203025 0%, #151516 100%); */
   width: 100%;
   max-width: 500px;
   border-radius: 30px;
@@ -76,10 +72,8 @@
 }
 
 .tech__item:hover {
-  border: rgb(253, 253, 253) 1px solid;
-  transition: opacity 0.2s ease;
-  transition: 0.1s;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px 0 rgb(255, 255, 255);
 }
 
 .tech__image {
