@@ -10,7 +10,7 @@ function Contacts() {
                 <a href="https://github.com/bmstustudent" className="contacts__link" target='_blank' rel="noreferrer">
                     <img className='contacts__image' src={github_me} alt='ul1' />
                 </a>
-                <a href="https://t.me/therealshulc" className="contacts__link" target='_blank' rel="noreferrer">
+                <a href="https://t.me/gggggggg88888888" className="contacts__link" target='_blank' rel="noreferrer">
                     <img className='contacts__image' src={telegram} alt='ul1' />
                 </a>
                 <a href="mailto:bmstustudent@yandex.ru" className="contacts__link" target='_blank' title="email"
