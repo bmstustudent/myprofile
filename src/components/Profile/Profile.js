@@ -1,5 +1,6 @@
 // import me from '../../images/portfolio.jpg';
 // import me from '../../images/photo-me.jpg';
+import React from 'react';
 import me from '../../images/me_one.jpg';
 
 function Profile() {

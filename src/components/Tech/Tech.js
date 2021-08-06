@@ -1,3 +1,4 @@
+import React from 'react';
 import git from '../../images/icons/git.svg'
 import html from '../../images/icons/html.svg'
 import css from '../../images/icons/css.svg'

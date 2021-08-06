@@ -1,3 +1,4 @@
+import React from 'react';
 import mail from '../../images/icons/mail.svg';
 import github_me from '../../images/icons/github.svg';
 import telegram from '../../images/icons/telegram.svg';
