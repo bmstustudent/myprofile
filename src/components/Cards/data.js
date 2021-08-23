@@ -1,8 +1,8 @@
-import how from "../../images/how.png";
-import russian from "../../images/russian.png";
-import mesto from "../../images/mesto.png";
-import movies from "../../images/movies.png";
-import me from "../../images/me.png";
+import how from "../../images/how.WebP";
+import russian from "../../images/russian.WebP";
+import mesto from "../../images/mesto.WebP";
+import movies from "../../images/movies.WebP";
+import me from "../../images/me.WebP";
 
 const DATA = [{
         title: "Научиться учиться",
